@@ -66,22 +66,6 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/urban-area",
-      "@type": "ActivityType",
-      "definition": {
-        "en": "A place where groups of humans live together."
-      },
-      "prefLabel": {
-        "en": "urban-area"
-      },
-      "scopeNote": {
-        "en": "Used for cities, towns, villages, campsites, and every human settlement."
-      },
-      "closelyRelatedNaturalLanguageTerm": {
-        "@id": "http://wordnet-rdf.princeton.edu/wn31/108690300-n"
-      }
-    },
-    {
       "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/water",
       "@type": "ActivityType",
       "definition": {
