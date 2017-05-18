@@ -69,7 +69,7 @@
       "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/water",
       "@type": "ActivityType",
       "definition": {
-        "en": " the part of the earth's surface covered with water (such as a river or lake or ocean)."
+        "en": "The part of the earth's surface covered with water (such as a river or lake or ocean)."
       },
       "prefLabel": {
         "en": "water"
@@ -79,6 +79,22 @@
       },
       "closelyRelatedNaturalLanguageTerm": {
         "@id": "http://wordnet-rdf.princeton.edu/wn31/109248053-n"
+      }
+    },
+    {
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/place",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Generic name for every geolocated place."
+      },
+      "prefLabel": {
+        "en": "water"
+      },
+      "scopeNote": {
+        "en": "Hyperonym for water, urban-area, green-zone and building."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/113971047-n"
       }
     },
     {
