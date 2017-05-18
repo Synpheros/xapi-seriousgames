@@ -6,7 +6,7 @@ use es\eucm\xapi\Profile2Html;
 
 define('MIME_TYPE_HTML', 'text/html');
 define('MIME_TYPE_JSON_LD', 'application/ld+json');
-define('PROFILE_FILE', 'seriousgames.jsonld');
+define('PROFILE_FILE', 'geolocated.jsonld');
 
 function isCommandLine() {
     return (php_sapi_name() === 'cli');

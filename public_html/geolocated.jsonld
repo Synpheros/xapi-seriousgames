@@ -1,0 +1,233 @@
+{
+  "@context": "http://xapi.vocab.pub/vocabulary/context.jsonld",
+  "@id": "https://rage.e-ucm.es/xapi/geolocated",
+  "@type": "ConceptScheme",
+  "prefLabel": {
+    "en": "Geoposition Vocabulary"
+  },
+  "created": {
+    "en": "2017-05-17"
+  },
+  "modified": {
+    "en": "2017-05-17"
+  },
+  "wasGeneratedBy": {
+    "name": {
+      "en": "eUCM Research Group"
+    }
+  },
+  "activity-types": [
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/building",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Represent a building in the real world"
+      },
+      "prefLabel": {
+        "en": "building"
+      },
+      "scopeNote": {
+        "en": ""
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/102738693-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/green-zone",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A piece of open land for recreational use inside an urban area."
+      },
+      "prefLabel": {
+        "en": "greenzone"
+      },
+      "scopeNote": {
+        "en": "Parks have to be inside a urban area."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/108632949-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/urban-area",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A place where groups of humans live together."
+      },
+      "prefLabel": {
+        "en": "urban-area"
+      },
+      "scopeNote": {
+        "en": "Used for cities, towns, villages, campsites, and every human settlement."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/108690300-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/urban-area",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A place where groups of humans live together."
+      },
+      "prefLabel": {
+        "en": "urban-area"
+      },
+      "scopeNote": {
+        "en": "Used for cities, towns, villages, campsites, and every human settlement."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/108690300-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/water",
+      "@type": "ActivityType",
+      "definition": {
+        "en": " the part of the earth's surface covered with water (such as a river or lake or ocean)."
+      },
+      "prefLabel": {
+        "en": "water"
+      },
+      "scopeNote": {
+        "en": "Used for all kind of bodies of water, such as river, lake, ocean, sea..."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/109248053-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/direction",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A group of guidance that helps the actor to reach the destination."
+      },
+      "prefLabel": {
+        "en": "direction"
+      },
+      "scopeNote": {
+        "en": "Requires guideline extensions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/108697710-n"
+      }
+    }
+  ],
+  "extensions": [
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/location",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A pair of latitude (lat: number with decimals) and longitude (lon: number with decimal), that represent a location in the real world"
+      },
+      "prefLabel": {
+        "en": "location"
+      },
+      "scopeNote": {
+        "en": "Latitude and Longitude must be real coordinates."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/100027365-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/orientation",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A group of yaw, pitch and roll that represent player orientation in the real world, similar to euler angles."
+      },
+      "prefLabel": {
+        "en": "orientation"
+      },
+      "scopeNote": {
+        "en": "Yaw pitch and roll are formatted in radians."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/113850288-n"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/guide",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A group of text lines describing a indications to reach the destination."
+      },
+      "prefLabel": {
+        "en": "guide"
+      },
+      "scopeNote": {
+        "en": "Lines will be displayed as an array."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/105921146-n"
+      }
+    }
+  ],
+  "verbs": [
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/entered",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has entered to some geolocated element."
+      },
+      "prefLabel": {
+        "en": "entered"
+      },
+      "scopeNote": {
+        "en": "Associated to the real places the actor visits."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/202020375-v"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/exited",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has exited to some geolocated element."
+      },
+      "prefLabel": {
+        "en": "exited"
+      },
+      "scopeNote": {
+        "en": "Asocciated with the the real element where the actor isn't anymore."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/202019450-v"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/moved",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has moved his location."
+      },
+      "prefLabel": {
+        "en": "moved"
+      },
+      "scopeNote": {
+        "en": "location must be appended to the extensions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200124250-v"
+      }
+    },
+    {
+      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/followed",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates the actor has followed or is following an element (train, car, dog...) or a group of directions, route or path."
+      },
+      "prefLabel": {
+        "en": "followed"
+      },
+      "scopeNote": {
+        "en": "Used when the player has his movement planified."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/202002464-v"
+      }
+    }
+  ]
+}
