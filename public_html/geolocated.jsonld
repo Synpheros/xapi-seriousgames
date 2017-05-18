@@ -1,6 +1,6 @@
 {
   "@context": "http://xapi.vocab.pub/vocabulary/context.jsonld",
-  "@id": "https://rage.e-ucm.es/xapi/geolocated",
+  "@id": "https://beaconing.e-ucm.es/xapi/geolocated",
   "@type": "ConceptScheme",
   "prefLabel": {
     "en": "Geoposition Vocabulary"
@@ -18,7 +18,7 @@
   },
   "activity-types": [
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/building",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/building",
       "@type": "ActivityType",
       "definition": {
         "en": "Represent a building in the real world"
@@ -34,7 +34,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/green-zone",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/green-zone",
       "@type": "ActivityType",
       "definition": {
         "en": "A piece of open land for recreational use inside an urban area."
@@ -50,7 +50,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/urban-area",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/urban-area",
       "@type": "ActivityType",
       "definition": {
         "en": "A place where groups of humans live together."
@@ -66,7 +66,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/water",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/water",
       "@type": "ActivityType",
       "definition": {
         "en": " the part of the earth's surface covered with water (such as a river or lake or ocean)."
@@ -82,7 +82,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/activity-types/direction",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/direction",
       "@type": "ActivityType",
       "definition": {
         "en": "A group of guidance that helps the actor to reach the destination."
@@ -100,7 +100,7 @@
   ],
   "extensions": [
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/location",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/extensions/location",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A pair of latitude (lat: number with decimals) and longitude (lon: number with decimal), that represent a location in the real world"
@@ -116,7 +116,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/orientation",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/extensions/orientation",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A group of yaw, pitch and roll that represent player orientation in the real world, similar to euler angles."
@@ -132,7 +132,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/extensions/guide",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/extensions/guide",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A group of text lines describing a indications to reach the destination."
@@ -150,7 +150,7 @@
   ],
   "verbs": [
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/entered",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/entered",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has entered to some geolocated element."
@@ -166,7 +166,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/exited",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/exited",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has exited to some geolocated element."
@@ -182,7 +182,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/moved",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/moved",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has moved his location."
@@ -198,7 +198,7 @@
       }
     },
     {
-      "@id": "https://rage.e-ucm.es/xapi/geolocated/verbs/followed",
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/followed",
       "@type": "Verb",
       "definition": {
         "en": "Indicates the actor has followed or is following an element (train, car, dog...) or a group of directions, route or path."
