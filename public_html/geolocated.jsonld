@@ -214,6 +214,22 @@
       }
     },
     {
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/looked",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has looked at some place."
+      },
+      "prefLabel": {
+        "en": "looked"
+      },
+      "scopeNote": {
+        "en": "Orientation must be appended to the extensions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/202699161-v"
+      }
+    },
+    {
       "@id": "https://beaconing.e-ucm.es/xapi/geolocated/verbs/followed",
       "@type": "Verb",
       "definition": {
