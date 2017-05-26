@@ -9,7 +9,7 @@
     "en": "2017-05-17"
   },
   "modified": {
-    "en": "2017-05-17"
+    "en": "2017-05-23"
   },
   "wasGeneratedBy": {
     "name": {
@@ -40,7 +40,7 @@
         "en": "A piece of open land for recreational use inside an urban area."
       },
       "prefLabel": {
-        "en": "greenzone"
+        "en": "green-zone"
       },
       "scopeNote": {
         "en": "Parks have to be inside a urban area."
@@ -88,7 +88,7 @@
         "en": "Generic name for every geolocated place."
       },
       "prefLabel": {
-        "en": "water"
+        "en": "place"
       },
       "scopeNote": {
         "en": "Hyperonym for water, urban-area, green-zone and building."
@@ -111,6 +111,19 @@
       },
       "closelyRelatedNaturalLanguageTerm": {
         "@id": "http://wordnet-rdf.princeton.edu/wn31/108697710-n"
+      }
+    },
+    {
+      "@id": "https://beaconing.e-ucm.es/xapi/geolocated/activity-types/point-of-interest",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Specific point location that someone may find useful or interesting"
+      },
+      "prefLabel": {
+        "en": "point-of-interest"
+      },
+      "scopeNote": {
+        "en": "Can be used for monuments, historic locations"
       }
     }
   ],
